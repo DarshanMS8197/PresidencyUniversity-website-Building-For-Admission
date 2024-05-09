@@ -1,0 +1,152 @@
+<html>
+<head>
+    <title>Student Registration Form </title>
+    <style>
+       body{
+            background-color:red;
+              }
+        h2 {
+            font-family: verdana;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            text-decoration: underline
+        }
+        table {
+            font-family: verdana;
+            color: white;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            background: blue;
+            border-collapse: collapse;
+            border: 4px solid #000000;
+            border-style: dashed;
+        }
+        input[type=text],
+        input[type=email],
+        input[type=number] {
+            width: 50%;
+            padding: 6px 12px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        input[type=submit],
+        input[type=reset] {
+            width: 15%;
+            padding: 8px 12px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+    </style> 
+</head>
+<body>
+    <h2>Admission Registration 2022-23 </h2>
+    <h2>Student Registration Form </h2>
+    <form>
+    <table align="center" cellpadding="10">
+    <tr>
+<td>First Name</td>
+      <td><input type="text" name="FirstName" maxlength="50" placeholder="Learn" />(Max 50 Characters Allowed)
+      </td>
+      </tr>
+      <tr>
+      <td>Last Name</td>
+      <td><input type="text" name="LastName" maxlength="50" placeholder="Programo" />(Max 50 Characters Allowed)
+      </td>
+      </tr>
+      <tr>
+      <td>Email ID</td>
+      <td><input type="email" name="EmailID" maxlength="100" placeholder="contact@learnprogramo.com" /></td>
+      </tr>
+      <tr>
+      <td>Mobile Number</td>
+      <td>
+      <input type="text" name="MobileNumber" maxlength="10" placeholder="1234567890" />(10 Digits Allowed)
+      </td>
+      </tr>
+      <tr>
+      <td>Gender</td>
+      <td>
+      <input type="radio" name="Gender" value="Male" />Male
+      <input type="radio" name="Gender" value="Female" />Female
+      </td>
+      </tr>
+      <tr>
+      <td>Date of Birth(DOB)</td>
+      <td> <input type="date" name="DOB" />  </td>
+      </tr>
+      <tr>
+      <td>Address<br /><br /><br /></td>
+      <td><textarea name="Address" rows="10" cols="50"></textarea></td>
+      </tr>
+      <tr>
+      <td>City</td>
+      <td><input type="text" name="City" maxlength="50" placeholder="Bangaluru" />(Max 50 Characters Allowed)
+      </td>
+      </tr>
+      <tr>
+      <td>Pin Code</td>
+      <td><input type="Number" name="PinCode" maxlength="6" placeholder="530068" />(Max 6 Numbers Allowed)
+      </td>
+      </tr>
+      <tr>
+      <td>State</td>
+      <td><input type="text" name="State" maxlength="50" placeholder="karnataka" /> (Max 50 Characters Allowed)
+       </td>
+       </tr>
+       <tr>
+       <td>Country</td>
+       <td><input type="text" name="Country" placeholder="India" /></td>
+       </tr>
+  <tr>
+        <td>Hobbies <br /><br /><br /></td> 
+<td>
+<input type="checkbox" name="HobbyDrawing" value="Drawing" />  Drawing
+<input type="checkbox" name="HobbySinging" value="Singing" />  Singing
+<input type="checkbox" name="HobbyDancing" value="Dancing" /> Dancing
+<input type="checkbox" name="HobbyCooking" value="Cooking" />Sketching
+<br />
+<input type="checkbox" name="HobbyOther" value="Other"> Others
+<input type="text" name="Other_Hobby" maxlength="50" placeholder="Ex- Teaching" />(Max 50 Characters Allowed)
+</td>
+</tr>
+<tr>
+<td>Qualification <br /><br /><br /></td>
+<td>
+<br />
+<input type="checkbox" name="HighSchool" value="High School" />
+                    High School(10th)<br>
+<input type="checkbox" name="HigherSchool" value="Higher School" />
+                    Higher School(12th)<br />
+<input type="checkbox" name="Graduation" value="Graduation" />
+                    Graduation(Bachelors)<br />
+<input type="checkbox" name="PostGraduation" value="Post Graduation" />
+                    Post Graduation(Masters)<br />
+</td>
+</tr>
+ <tr>
+<td>Courses<br />Applied For</td>
+<td>
+<select name="Course" id="1">             
+ <option>BCA(Bachelor of Computer Applications)</option>
+ <option>B.Com(Bachelor of Commerce)</option>
+ <option>B.Sc(Bachelor of Science)</option>
+ <option>B.Tech - School of Engineering</option>
+ <option>BBL - Law </option>
+</select>   
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+ <input type="reset" value="Reset">
+ </td>
+ </tr>
+ </table>
+ </form>
+</body>
+</html>
+
